@@ -1,0 +1,18 @@
+#11 
+total_marks=int(input('enter total marks:'))
+if total_marks>360:
+    print('first class')
+elif total_marks>=300 and total_marks<360:
+    print('second class')
+elif total_marks<300:
+    print('third class')
+else:
+    print('marks are same')
+
+#5 check positive or negative number
+
+a=int(input('please enter number:'))
+if a%2==0:
+    print('number is even')
+else:
+    print('number is odd')
